@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // case-1
+        const array1=['a','b','c'];
+        const array2=array1.entries();
+        console.log(array2)  // it prints array iterator
+
+        console.log(array2.next().value);
+        console.log(array2.next().value);
+        console.log(array2.next().value);
+        //it return index key value of the element 
+    //    prints  [0,'a']
+
+    // case-2
+    // using for loop
+      const ashwin=['a','b','c']
+      const ashwin1=ashwin.entries();
+      for (const iterator of ashwin1) {
+        console.log(iterator)
+              }
+            //   it prints all key value in console 
+
+
+           
+    </script>
+</body>
+</html>

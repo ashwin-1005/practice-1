@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Syntax of array:
+        // let arr=new Array();
+        // console.log(arr) // one type 
+        let x=[]//another type for creating an array
+
+        let a= [1,2,3]
+        console.log(a.length);  //3 length of the array 
+         a[2]="ashwin"
+         console.log(a)
+        // replacing the array element 
+
+        a[3]=4
+        console.log(a)//adding the element in an array
+
+        // array can store any type of element and we can access
+        let z= ["ashwin",{age:20},function(){ console.log(hello)},true]
+        console.log(z[1].age);
+
+        let cars =["velar","BMW","Bugatti"];
+        console.log(cars[cars.length-2]);  
+        // in this  case length is 3 and 3-2 is 1 in place of 1  bmw is there
+         
+        // shorter syntax instead of .length
+        console.log(cars.at(-1)); 
+        // simlar to length-2
+        
+        const fruits = ["Banana", "Orange", "Apple"];
+let type = typeof fruits;
+console.log(type)   
+    </script>
+</body>
+</html>

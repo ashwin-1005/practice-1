@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array1=[1,2,3,4,5];
+        const intialvalue=8;
+        const sumwithintial= array1.reduce((accumulator,currentValue)=>accumulator+currentValue,intialvalue);
+        console.log(sumwithintial);
+        
+// syntax of reduce method is 
+// array.reduce( function(total, currentValue, currentIndex, arr), 
+// initialValue )
+
+        // in reduce method in the given array it reduces all the element and gives the final accumulator value 
+        // if we give the intialvalue it prints along the intialvalue
+
+        // output will be  23
+    </script>
+</body>
+</html>

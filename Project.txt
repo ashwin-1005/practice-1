@@ -1,0 +1,16 @@
+run json server :
+json-server --watch db.json
+npx json-server --watch db.json --port 3000
+
+
+
+Backbone js 
+===========
+
+*Model-> similar like datatable contains data .
+*Collections -> Collections contain many models . model and collection are related each other 
+*View ->it will render the data from models and collections and display  it in the page .
+*Routers  -> it routes the page from one to another.
+
+
+

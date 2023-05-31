@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //var can be redeclared and reassingned 
+        // var x = 1
+        // var y = 1
+        // console.log(x);
+        // console.log(y);
+        // var x = 2
+        // console.log(x);
+        // console.log(x+y);
+        // console.log(x*y);
+    //     'use strict'
+    //    var x=10 ;
+    //    y=20
+    //    z=30
+    //    console.log(x+y+z); // in strict mode it throws ref error
+
+
+    //    var x=10 ;
+    //    console.log(typeof x !== 'undefined'); //true 
+    //    console.log(typeof y !== 'undefined'); //false 
+
+    //    var str;
+    //    str="hoisting"
+    //    console.log(str);  // prints hoisting
+
+    //        console.log(str);
+
+    //         var str = 'Hoisting';  // undefined
+
+
+//     // CASE -1 
+//     "use strict";
+// function foo() {
+//   var x = 1;
+//   function bar() {
+//     var y = 2;
+//     console.log(x); // 1 (function `bar` closes over `x`)
+//     console.log(y); // 2 (`y` is in scope)
+//   }
+//   bar();
+//   console.log(x); // 1 (`x` is in scope)
+//   console.log(y); // ReferenceError, `y` is scoped to `bar`
+// }
+
+// foo();
+
+
+// CASE - 2
+
+// function hello()
+// {
+//  if(true)
+//  {
+//     var x=0;
+//     let y=1;
+//     const z=2;
+//     console.log(x);
+//     console.log(y);
+//     console.log(z); //it prints x,y,z values  it is inside the block scope
+//  }
+//  console.log("outside if statement");
+//  console.log(x);
+//     console.log(y);
+//     console.log(z);// it only executes var x   let and const cannot be accesed outside the block scope 
+// }
+
+
+// CASE -3 
+// program to show the change in global variable
+// let a = "hello";
+
+// function greet() {
+//     a = 3;
+// }
+
+// // before the function call
+// console.log(a); // HELLO
+
+// //after the function call
+// greet();
+// console.log(a); // 3
+
+
+
+//  console.log(disp());
+//  function disp(){
+//     return "Hi"  // executes function and gives "hi" 
+//  }
+
+//  console.log(disp())
+//     var disp=()=>{
+//     return "hi"
+// }  // error variable hoisting happens here 
+
+    </script>
+
+</body>
+</html>
